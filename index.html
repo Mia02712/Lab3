@@ -1,0 +1,129 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+         body {
+            background-color: pink;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: transparent;
+            padding: 20px;
+            position: fixed;
+            top: 0;
+            right: 0;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: hotpink;
+            font-size: 16px;
+            margin-bottom: 10px;
+            transition: font-size 0.3s, color 0.3s;
+            white-space: nowrap; /* 防止文本换行 */
+        }
+
+        .navbar a:hover {
+            font-size: 20px;
+            color: white;
+        }
+
+        .navbar .title {
+            font-size: 24px;
+            color: hotpink;
+            margin-bottom: 20px;
+            justify-content: flex-start; /* 从顶部开始垂直对齐 */
+            align-items: flex-end; /* 从右侧开始水平对齐 */
+        }
+
+        .image-grid {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .image-row {
+            display: flex;
+            justify-content: flex-start;
+            margin-bottom: 5px;
+        }
+
+        .image {
+            width: 100%; /* 设置图片宽度 */
+            height: 100px; /* 设置图片高度 */
+            margin-right: 10px; /* 设置图片之间的右边距 */
+        }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+     <div class="container-fluid">
+    <div class="row">
+            <div class="image-grid">
+                <div class="image-row">
+                    <div class="col-md-6"> <!-- 添加col-md-6类 -->
+                        <img src="img/1.jpg" alt="Image 1" class="image">
+                    </div>
+                    <div class="col-md-6"> <!-- 添加col-md-6类 -->
+                        <img src="img/2.jpg" alt="Image 2" class="image">
+                    </div>
+                </div>
+                <div class="image-row">
+                    <div class="col-md-3"> <!-- 添加col-md-6类 -->
+                        <img src="img/3.jpg" alt="Image 3" class="image">
+                    </div>
+                    <div class="col-md-6"> <!-- 添加col-md-6类 -->
+                        <img src="img/4.jpg" alt="Image 4" class="image">
+                    </div>
+                    <div class="col-md-3"> <!-- 添加col-md-6类 -->
+                        <img src="img/5.jpg" alt="Image 5" class="image">
+                    </div>
+                </div>
+                <div class="image-row">
+                    <div class="col-md-8"> <!-- 添加col-md-6类 -->
+                        <img src="img/6.jpg" alt="Image 6" class="image">
+                    </div>
+                    <div class="col-md-4"> <!-- 添加col-md-6类 -->
+                        <img src="img/7.jpg" alt="Image 7" class="image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="navbar">
+                <h1 class="title">SHUTTER</h1>
+                <a href="#">HOME</a>
+                <a href="#">PHOTOS</a>
+                <a href="#">BIO</a>
+                <a href="#">BLOG</a>
+                <a href="#">CONTACT</a>
+                <a href="https://twitter.com"><img src="img/twitter.png" alt="Twitter Icon"> </a>
+                <a href="https://facebook.com"><img src="img/facebook.png" alt="facebook Icon"> </a>
+                <a href="https://instagram.com"><img src="img/instagram.png" alt="instagram Icon"> </a>
+            </div>
+        </div>
+    </div>
+
+
+    </body>
+</html>
